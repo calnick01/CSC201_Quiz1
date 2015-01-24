@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class UsernamePassword {
 	public static void main(String[] args) {
 		String username, password;
-		int passwordLength, x = 0;
+		int passwordLength; 
+		byte x = 0;
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter your username");
