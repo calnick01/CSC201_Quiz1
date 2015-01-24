@@ -20,9 +20,9 @@ public class UsernamePassword {
 
 		passwordLength = password.length();
 
-		System.out.print("Hello " + username
-				+ ", Welcome to CSC200 class! and Your password is ");
+		System.out.print("Hello " + username + ", Welcome to CSC200 class! and Your password is ");
 
+		//System.out.print("Hello " + username + ", Welcome to CSC200 class! and Your password is " + password);
 		while (x < passwordLength) {
 			System.out.print("X");
 			x++;
